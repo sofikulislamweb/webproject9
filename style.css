@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap');
+
+
+body,*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	font-family: 'Noto Sans JP', sans-serif; 
+	
+	
+}
+img{
+	max-width: 100%;
+}
+a{
+	text-decoration: none;
+}
+
+.home .container-md {
+	padding:80px 0;
+}
+
+
+.navbar-brand img{
+	width:150px;
+}
+
+.header{
+	 background-color: rgb(238, 238, 238);
+	 padding: 0 0 3px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+       margin: 0 5px;
+       padding: 7px 20px;
+       border-radius: 30px;
+       color:#000;
+       transition-duration: .5s;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+	  background: #0984e3;
+	  color:#fff;
+           
+}
+.active{
+    color: #fff !important;
+    background: #0984e3;
+    border-radius: 30px;
+}
+
+
+
+.home-text h1{
+       color: #0f2656;
+       font-size: 44px;
+       font-weight: 700;
+       line-height: 60px;
+}
+
+.home-text h1 span{
+	color:#008AFF;
+
+}
+
+.home-text p{
+      font-size: 17px;
+      max-width: 760px;
+      margin: auto;
+      line-height: 30px;
+}
+.home-img{
+	
+}
+
+.home-img img{
+	  margin-top: 50px;
+}
+
+.home{
+	padding: 90px 0;
+}
+
+.project{
+	background-color:#FAFAFA;
+	padding: 70px 0;
+}
+
+.project span{
+
+	color: #f15767;
+	font-size: 48px;
+	font-weight: 600;
+	text-align: right;
+	display: block;
+}
+
+.project p{
+      font-size: 16px;
+      line-height: 30px;
+      text-align: right;
+}
+
+.project h2{
+	  color: #0f2656;
+      font-size: 48px;
+      font-weight: 600;
+}
+.service{
+	padding:90px 0;
+}
+
+.service-box{
+       background-color: #fdebed;
+       padding: 50px 23px 30px;
+       border-radius: 10px;
+       margin: 0 10px;
+       transition-duration: .5s;
+}
+
+.service-box:hover{
+	  background: #fff;
+      box-shadow: 8px 10px 20px 0 rgba(217, 209, 209, 0.88);
+      transform:rotate(-2deg);
+}
+
+.service-box img{
+	 height:200px;
+	 margin-top: ;
+}
+
+.service-box h3{
+	      font-size: 24px;
+          font-weight: 600;
+          color: #0f2656;
+          margin-top: 20px;
+          margin-bottom: 10px;
+
+}
+
+.service-box p{
+	  line-height: 28px;
+      color: #000000b3;
+}
+
+.service1{
+     background-color:#ebf9f4;
+     transition-duration: .5s;   
+}
+
+.service1:hover{
+	  transform:rotate(0deg);
+}
+
+.service2{
+     background-color:#fff7e8;
+     transition-duration: .5s;
+
+}
+
+.service2:hover{
+	transform:rotate(2deg);
+}
+
+
+.footer{
+   background-color:#0984e3;
+   padding: 20px 0 12px; 
+}
+
+.footer p{
+      color:#fff;
+      text-align: center;
+      margin-top: 5px;
+}
+
+.footer span{
+        transition-duration: .5s;
+        font-size: 17px;
+}
+
+.footer span:hover{
+	 letter-spacing:1px;
+
+}
